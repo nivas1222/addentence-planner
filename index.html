@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>Attendance Planner</h2>
+    <label for="totalHours">Total Scheduled Hours:</label>
+    <input type="number" id="totalHours" placeholder="Enter total hours" />
+
+    <label for="attendedHours">Attended Hours:</label>
+    <input type="number" id="attendedHours" placeholder="Enter attended hours" />
+
+    <label for="plannedAbsences">Planned Absences (hours):</label>
+    <input type="number" id="plannedAbsences" placeholder="Enter planned absences" />
+
+    <button onclick="calculateAttendance()">Calculate Attendance</button>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
